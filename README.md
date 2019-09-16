@@ -7,6 +7,10 @@ pure Go mysql client
 - Complete table name
 - Complete MySQL reserved words
 
+## Demo
+
+![](https://raw.githubusercontent.com/johejo/go-mysql-client/master/demo.gif)
+
 ## Install
 
 ```bash
