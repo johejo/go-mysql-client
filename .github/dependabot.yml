@@ -1,0 +1,18 @@
+version: 2
+updates:
+- package-ecosystem: gomod
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "20:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: github.com/c-bata/go-prompt
+    versions:
+    - 0.2.5
+  - dependency-name: github.com/go-sql-driver/mysql
+    versions:
+    - 1.5.0
+  - dependency-name: github.com/olekukonko/tablewriter
+    versions:
+    - 0.0.4
