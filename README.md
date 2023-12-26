@@ -14,7 +14,12 @@ pure Go mysql client
 ## Install
 
 ```bash
+# for someone who is newbe to go
+git clone git@github.com:johejo/go-mysql-client.git
+cd go-mysql-client
 go get -u github.com/johejo/go-mysql-client/cmd/gomysql
+cd /cmd/gomysql
+go build
 ```
 
 ## Usage
